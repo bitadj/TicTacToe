@@ -7,13 +7,12 @@ body {
 #gameboard {
 	padding: 10px;
 	width: auto;
-	display: table;
 	float: left;
+	border: 5px solid black;
 }
 
 .row {
 	clear: both;
-	display: table-row;
 	width: auto;
 }
 
@@ -21,7 +20,6 @@ body {
 	float: left;
 	height: 150px;
 	width: 150px;
-	display: table-column;
 	font-size: 100px;
 }
 
@@ -34,12 +32,5 @@ body {
 }
 
 #scoreboard {
-	float: left;
-}
-#container {
-	padding: 40px;
-	width: auto;
-	margin: 0 auto;
-	display: table;
 	float: left;
 }
