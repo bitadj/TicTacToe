@@ -1,0 +1,45 @@
+body {
+	background-color: #3b653d;
+	font-family: 'Covered By Your Grace', cursive;
+	color: #EDEDED;
+}
+
+#gameboard {
+	padding: 10px;
+	width: auto;
+	display: table;
+	float: left;
+}
+
+.row {
+	clear: both;
+	display: table-row;
+	width: auto;
+}
+
+.cell {
+	float: left;
+	height: 150px;
+	width: 150px;
+	display: table-column;
+	font-size: 100px;
+}
+
+.right {
+	border-right: 8px solid #EDEDED;
+}
+
+.bottom {
+	border-bottom: 8px solid #EDEDED;
+}
+
+#scoreboard {
+	float: left;
+}
+#container {
+	padding: 40px;
+	width: auto;
+	margin: 0 auto;
+	display: table;
+	float: left;
+}
