@@ -5,35 +5,36 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="script.js"></script>
 		
 		<title>TicTacToe</title>
 	</head>
 
-	<body>
+	<body onload = "init()">
  	 	<div id="gameboard"> 
- 			<div class="row">
-				<div class="cell right bottom">1</div>
-				<div class="cell right bottom">2</div>
-				<div class="cell bottom">3</div>
+ 			<div class="row" id="row1">
+				<div class="cell right bottom" id="cell1">&nbsp;</div>
+				<div class="cell right bottom" id="cell2">&nbsp;</div>
+				<div class="cell bottom" id="cell3">&nbsp;</div>
 			</div>
  
-			 <div class="row">
-				<div class="cell right bottom">4</div>
-				<div class="cell right bottom">5</div>
-				<div class="cell bottom">6</div>
+			 <div class="row" id="row2">
+				<div class="cell right bottom" id="cell4">&nbsp;</div>
+				<div class="cell right bottom" id="cell5">&nbsp;</div>
+				<div class="cell bottom" id="cell6">&nbsp;</div>
 			</div>
 
-			<div class="row"> 
-				<div class="cell right">7</div>
-				<div class="cell right">8</div>
-				<div class="cell">9</div>
+			<div class="row" id="row3"> 
+				<div class="cell right"  id="cell7">&nbsp;</div>
+				<div class="cell right"  id="cell8">&nbsp;</div>
+				<div class="cell"  id="cell9">&nbsp;</div>
  			</div>
 		</div>
 
  	<div id="scoreboard">
 		<div class="bottom"><h1>SCORE</h1></div>
-		<div class="player right"><h2>Player 1</h2></div>
-		<div class="player"><h2>Player 2</h2></div>
+		<div class="player bottom"><h2>Player 1</h2></div>
+		<div class="player bottom"><h2>Player 2</h2></div>
 	</div>  
 
 
